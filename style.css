@@ -6,8 +6,8 @@
   --paper-raised: #FFFFFF;
   --ink: #16213A;
   --ink-soft: #46506B;
-  --copper: #A85A28;
-  --teal: #2C6560;
+  --copper: #8A3A78;
+  --teal: #3D4F82;
   --line: #CFC9B8;
   --line-strong: #16213A;
 
@@ -468,6 +468,20 @@ ol, ul { margin: 0; padding: 0; list-style: none; }
   color: var(--ink-soft);
 }
 
+.footer-affiliation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.footer-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
 /* ============================================================
    Responsive
    ============================================================ */
@@ -495,7 +509,7 @@ ol, ul { margin: 0; padding: 0; list-style: none; }
   }
   .hero { padding: 72px 20px 56px; }
   .hero-inner {
-    flex-direction: column-reverse;
+    flex-direction: column;
     text-align: left;
     gap: 32px;
   }
